@@ -1,6 +1,7 @@
 import React from 'react';
 import Logo from '../../Images/LogoSmall.svg';
 import './Navbar.css';
+import MenuIcon from '@material-ui/icons/Menu';
 
 const Navbar = () => {
     return (
@@ -21,6 +22,7 @@ const Navbar = () => {
             <div className="navbar__end">
                 <p>Shop</p>
                 <p>Tesla Account</p>
+                <MenuIcon className='navbar__end__icon' />
             </div>
             
         </div>
