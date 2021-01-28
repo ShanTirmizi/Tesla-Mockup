@@ -31,8 +31,13 @@
     display: flex;
     justify-content: flex-end;
     text-transform: uppercase;
+    margin-right: 40px;
 }
 
 .navbar__end > p {
     margin: 10px;
+}
+
+.navbar__end__icon {
+    margin-top: 10px;
 }
