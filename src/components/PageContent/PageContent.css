@@ -1,0 +1,48 @@
+.pageContent {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pageContent__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40vw;
+}
+
+.pageContent__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 34px;
+    color: #393c41;
+    flex: 1;
+    margin-top: 20%;
+}
+
+.pageContent__info__des {
+    font-weight: 200;
+    font-size: 14px;
+}
+
+.pageContent__bottom {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5%;
+}
+
+.pageContent__bottom__btn {
+    display: flex;
+}
+
+.pageContent__expand {
+    color: white;
+    width: 100%;
+    margin-top: 3%;
+    justify-content: center;
+}
