@@ -1,0 +1,38 @@
+.navbar {
+    display: flex;
+    background: none;
+    background-color: transparent;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    margin: 15px;
+    margin-top: 15px;
+    z-index: 100;
+}
+
+.navbar__logo {
+    margin-top: 7px;
+    width: 100px;
+    height: 24px;
+}
+
+.navbar__middle {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+.navbar__middle > p {
+    margin: 10px;
+    text-transform: uppercase;
+}
+
+.navbar__end {
+    display: flex;
+    justify-content: flex-end;
+    text-transform: uppercase;
+}
+
+.navbar__end > p {
+    margin: 10px;
+}
